@@ -3,7 +3,7 @@ This is a quick (re-)implementation of the evolutionary economics Nelson and Win
 
 DO NASCIMENTO CLEMENTINO , José Bruno; HARRY VARGAS BARRENECHEA , Martin. An implementation on Python of the Classical Nelson and Winter Models. Revista Economia Ensaios, Uberlândia, Minas Gerais, Brasil, v. 37, n. esp.ago., 2022. DOI: 10.14393/REE-v37nesp.ago.a2022-66702. Available on: https://seer.ufu.br/index.php/revistaeconomiaensaios/article/view/66702.
 
-I've re-implemented up to the Nelson and Winter (1982) model, but this structure should be enough to help the user reimplementing the other versions, which are already available in the article, and is also publicly available.
+In this repository, I've re-implemented up to the Nelson and Winter (1982) model, but this structure should be enough to help the user reimplementing the other versions, which are already available in the article, and is also publicly available.
 
 * Requirements
 Sadly, I didn't have the time to setup the project properly (using a virtual environment), but I can assure that this runs using Python3.13 and the most recent versions of ~matplotlib~ and ~numpy~.
