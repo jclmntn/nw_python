@@ -1,0 +1,27 @@
+* What is this
+This is a quick (re-)implementation of the evolutionary economics Nelson and Winter models which I wrote with my then research advisor Martin Barrenechea:
+
+DO NASCIMENTO CLEMENTINO , José Bruno; HARRY VARGAS BARRENECHEA , Martin. An implementation on Python of the Classical Nelson and Winter Models. Revista Economia Ensaios, Uberlândia, Minas Gerais, Brasil, v. 37, n. esp.ago., 2022. DOI: 10.14393/REE-v37nesp.ago.a2022-66702. Available on: https://seer.ufu.br/index.php/revistaeconomiaensaios/article/view/66702.
+
+I've re-implemented up to the Nelson and Winter (1982) model, but this structure should be enough to help to user reimplementing the other versions (which are already available in the article).
+
+* Requirements
+Sadly, I didn't have the time to setup the project properly (using a virtual environment), but I can assure that this runs using Python3.13 and the most recent versions of ~matplotlib~ and ~numpy~.
+
+* How to run
+Clone this repository to a directory of your preference and then just run:
+#+BEGIN_SRC sh
+python simple_main.py
+#+END_SRC
+
+In order to get results from the /simple/ model.
+
+To get results from Nelson and Winter (1982) model:
+#+BEGIN_SRC sh
+python nw82_main.py
+#+END_SRC
+
+In order to get results from a simple model.
+
+* Contact
+Feel free to send me an e-mail on jose@clementino.dev in case you have any doubts.
